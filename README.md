@@ -8,7 +8,8 @@
 
 ## Some Screenshots of the app:
 
-### Splash-screen:![image](https://github.com/joy07092/Dimension-X/assets/126982931/ffb90762-cdea-4390-a773-ca0c123e1eb7)
+### Splash-screen:
+![image](https://github.com/joy07092/Dimension-X/assets/126982931/ffb90762-cdea-4390-a773-ca0c123e1eb7)
 
 ### Welcome-activity:![image](https://github.com/joy07092/Dimension-X/assets/126982931/5d85c176-81e4-4cdc-a5ac-0949129729d9)
 
