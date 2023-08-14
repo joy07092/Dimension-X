@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="#3D2E4F">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:background="#DDC598">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageview_logo"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"
+            android:maxWidth="180dp"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_main_head"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold|italic"
+            android:text="Welcome to Dimension-X"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageview_logo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_login"
+            android:text="Login"
+            android:layout_marginTop="100dp"
+            android:layout_below="@id/textview_main_head"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/custom_setwallaper_button"/>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:id="@+id/button_register"
+            android:text="register"
+            android:background="@drawable/custom_setwallaper_button"
+            android:layout_below="@id/button_login"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
